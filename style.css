@@ -15,4 +15,12 @@ img {
   margin: 15px 0;
   border: 5px solid hotpink;
 }
+a:link {
+  color: red;
+  text-decoration: none;
+}
+a:visited {
+  color: hotpink;
+  text-decoration: none; 
+}
 
