@@ -6,7 +6,19 @@ body {
 }
 h1 {
   margin: 80px 0 0 80px;
-  font: bold italic x-large "Times New Roman", Times, serif;
+  font-family: "Impact", "Arial Black", sans-serif;
+  font-size: 72px; 
+  font-weight: bold; 
+  color: #ffdd57;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+
+  text-shadow: 
+    0 0 5px #fff, 
+    0 0 10px #fff, 
+    0 0 15px #ffdd57, 
+    0 0 20px #ffdd57, 
+    3px 3px 2px rgba(0,0,0,0.5); /* 影を重ねて光彩と立体感を演出 */
 }
 img {
   width: auto;
@@ -23,4 +35,5 @@ a:visited {
   color: hotpink;
   text-decoration: none; 
 }
+
 
