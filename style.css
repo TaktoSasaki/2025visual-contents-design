@@ -12,5 +12,7 @@ img {
   width: auto;
   height: auto;
   display: block;
-  margin: 20px 0;
+  margin: 15px 0;
+  border: 5px solid hotpink;
 }
+
