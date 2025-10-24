@@ -1,0 +1,36 @@
+/*全体設定*/
+body {
+    background-color: #ffc0cb;
+}
+
+/*タイトル*/
+h1 {
+    color: #800000;
+    text-align: center;
+}
+
+/*ヘッダー画像*/
+.shop img {
+    width: 100%;
+}
+
+/*ケーキコンテナ*/
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*ケーキ*/
+.cakes {
+    width: 50%;
+}
+
+/*ケーキ画像*/
+.cakes img {
+    width: 100%;
+}
+
+/*ケーキ名*/
+.cakes h2 {
+    color: #800000;
+}
