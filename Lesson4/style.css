@@ -40,4 +40,13 @@ ul.ddmenu a:hover {
 
 ul.ddmenu li:hover ul {
   display: block;
+
+}
+
+/*背景*/
+body {
+  margin: 0;
+  color: #ffffff;
+  background: #000000 url(chiba.jpg) no-repeat;
+  background-size: cover;
 }
