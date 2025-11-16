@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 90">
+    <rect width="280" height="90" fill="#2C1810" rx="8"/>
+    <circle cx="55" cy="45" r="28" fill="none" stroke="#D4AF37" stroke-width="3"/>
+    <path d="M45 28 L65 28 L63 45 C62 52 58 57 55 57 C52 57 48 52 47 45 Z" fill="#8B1538"/>
+    <rect x="53" y="57" width="4" height="14" fill="#8B1538"/>
+    <rect x="47" y="71" width="16" height="3" fill="#8B1538"/>
+    <text x="95" y="38" fill="#D4AF37" font-size="14" font-family="Arial, sans-serif" letter-spacing="1">
+        Italian Wine Bar
+    </text>
+    <text x="95" y="60" fill="#F5F5DC" font-size="24" font-family="Georgia, serif" font-weight="bold">
+        ChibaTech
+    </text>
+</svg>
