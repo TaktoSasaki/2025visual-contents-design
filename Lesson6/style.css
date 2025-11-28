@@ -537,3 +537,14 @@ aside {
         transform: translateY(0);
     }
 }
+
+.photo-warm,
+.photo-warm img {
+    filter: sepia(0.15) saturate(1.15) brightness(1.05);
+}
+
+.photo-contrast,
+.photo-contrast img {
+    filter: contrast(1.2) brightness(0.95);
+}
+
