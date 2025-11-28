@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>BMI計算機</title>
+    <script>
+    function keisan() {
+        var h = Number(document.getElementById("height").value) / 100;
+        var w = Number(document.getElementById("weight").value);
+        var bmi = Math.round(w / (h * h) * 100) / 100;
+        document.getElementById("result").textContent = "BMI: " + bmi;
+    }
+    </script>
+</head>
+<body>
+    <h1>BMI計算機</h1>
+    身長(cm): <input type="text" id="height" /><br><br>
+    体重(kg): <input type="text" id="weight" /><br><br>
+    <input type="button" onclick="keisan()" value="計算" />
+    <p id="result"></p>
+</body>
+</html>
