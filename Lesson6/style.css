@@ -65,7 +65,7 @@ a:hover {
     padding: 0px;
 }
 
-/* リストの横並び (手癖反映) */
+/* リストの横並び */
 .global-nav li {
     width: 130px; /* 幅を固定 */
     display: inline-block;
@@ -73,7 +73,7 @@ a:hover {
     position: relative;
 }
 
-/* リストの項目ごとの指定 (手癖反映) */
+/* リストの項目ごとの指定 */
 .global-nav a {
     line-height: 40px; /* 高さを固定 */
     text-align: center;
@@ -86,7 +86,7 @@ a:hover {
     letter-spacing: 0.1em;
 }
 
-/* ホバー (手癖反映) */
+/* ホバー */
 .global-nav a:hover {
     background-color: rgba(212, 175, 55, 0.15);
     color: #D4AF37;
@@ -513,3 +513,4 @@ aside {
     color: #c4b5a5;
     margin-top: 15px;
 }
+
