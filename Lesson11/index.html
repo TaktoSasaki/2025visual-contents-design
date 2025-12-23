@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME | イタリアンレストラン ChibaTech</title>
+    <!-- Bootstrap CSS（フレームワーク要件） -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+    <!-- 元のCSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">
+                <img src="sozai/logo.svg" alt="Italian Restaurant ChibaTech ロゴ" class="logo-svg">
+            </a>
+            
+            <nav class="global-nav" aria-label="グローバルナビゲーション">
+                <ul>
+                    <li><a href="index.html" class="current">HOME</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="access.html">ACCESS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-inner">
+                <div class="hero-text fade-in">
+                    <img src="sozai/titlelogo.svg" alt="Italian Restaurant ChibaTech - 本格イタリアンと厳選ワインで至福のひととき" class="title-image">
+                    <p class="hero-subtitle">
+                        津田沼の街角で味わう、本場イタリアの美酒と料理
+                    </p>
+                    <a href="menu.html" class="btn primary-btn">本日のおすすめを見る</a>
+                </div>
+                
+                <div class="hero-photo fade-in">
+                    <img src="sozai/内装1.jpg" alt="Italian Restaurant ChibaTech 店内のカウンター" 
+                         class="photo-placeholder" 
+                         style="object-fit: cover; border: 2px solid var(--color-accent);">
+                </div>
+            </div>
+        </section>
+
+        <section class="section-spacer">
+            <div class="container">
+                <div class="content-grid">
+                    <div class="grid-main">
+                        <article class="fade-in">
+                            <h2 class="section-title">Concept</h2>
+                            <p>
+                                イタリアンレストラン ChibaTechは、津田沼の地で本格的なイタリア料理と厳選されたワインをお楽しみいただけます。シェフが厳選した旬の食材を使用したイタリア料理をご提供いたします。
+                            </p>
+                            <p>
+                                店内は落ち着いた照明とモダンなインテリアで統一され、デートや接待、特別な記念日にも最適な空間を演出しております。店長が厳選した世界各国のワインコレクションは200種類以上を取り揃え、お料理との完璧なマリアージュをお楽しみいただけます。
+                            </p>
+                        </article>
+
+                        <article class="fade-in">
+                            <h2 class="section-title">料理とワインのこだわり</h2>
+                            
+                            <div class="image-gallery">
+                                <div class="image-item">
+                                    <img src="sozai/フレッシュなサラダ.jpg" alt="色鮮やかなフレッシュサラダの前菜プレート">
+                                    <span>前菜プレート</span>
+                                </div>
+                                <div class="image-item">
+                                    <img src="sozai/国産牛ステーキ.jpg" alt="ジューシーな国産牛ステーキのメインディッシュ">
+                                    <span>メインディッシュ</span>
+                                </div>
+                                <div class="image-item">
+                                    <img src="sozai/こだわり1絶品パスタ.jpg" alt="自家製の絶品パスタ料理">
+                                    <span>自家製パスタ</span>
+                                </div>
+                                <div class="image-item">
+                                    <img src="sozai/ワイン2.jpg" alt="厳選されたワインボトルのコレクション">
+                                    <span>厳選ワイン</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- ★追加：動画セクション -->
+                        <article class="fade-in">
+                            <h2 class="section-title">シェフのこだわり</h2>
+                            <div class="video-container">
+                                <video controls class="w-100 rounded shadow-sm">
+                                    <source src="sozai/パスタ.mp4" type="video/mp4">
+                                    お使いのブラウザは動画再生に対応していません。
+                                </video>
+                                <p class="text-center mt-2 text-muted small">
+                                    ▶ シェフが作る自家製パスタの様子
+                                </p>
+                            </div>
+                        </article>
+
+                        <!-- ★追加：GIFアニメーション表示 -->
+                        <article class="fade-in">
+                            <h2 class="section-title">ワインの楽しみ方</h2>
+                            <div class="text-center">
+                                <img src="sozai/wine-pour.gif" alt="ワインを注ぐ様子" 
+                                     class="img-fluid rounded border border-warning"
+                                     onerror="this.src='sozai/ワイン2.jpg'">
+                                <p class="mt-2 text-muted small">
+                                    グラスに注がれる厳選ワイン
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <aside class="grid-side fade-in">
+                        <h3 class="aside-title">営業情報</h3>
+                        <div class="info-box">
+                            <p><strong>営業時間：</strong></p>
+                            <p>ランチ 11:30-14:30</p>
+                            <p>ディナー 17:30-23:00</p>
+                            <p><strong>定休日：</strong> 月曜日</p>
+                        </div>
+
+                        <h3 class="aside-title">ご予約・お問い合わせ</h3>
+                        <div class="info-box">
+                            <p><strong>TEL：</strong> xxx-xxx-xxxx</p>
+                            <p><strong>Email：</strong> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a6dededee6dedededede8bdededede88ccd6">[email&#160;protected]</a></p>
+                            <p>※ご予約優先制</p>
+                        </div>
+
+                        <!-- ★追加：BGM再生 -->
+                        <h3 class="aside-title">店内BGM</h3>
+                        <div class="info-box">
+                            <audio controls class="w-100">
+                                <source src="sozai/bgm.mp3" type="audio/mpeg">
+                                お使いのブラウザは音声再生に対応していません。
+                            </audio>
+                            <p class="small text-muted mt-2 mb-0">
+                                ※店内で流れるBGMをお楽しみください
+                            </p>
+                        </div>
+
+                        <h3 class="aside-title">本日のおすすめ</h3>
+                        <div class="card">
+                            <div class="card-image" style="background-image: url('sozai/ワイン2.jpg');">
+                                <span>ロワール産 白ワイン</span>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">ソーヴィニヨン・ブラン</h4>
+                                <p class="card-text">
+                                    爽やかな酸味と柑橘系やハーブの香りが特徴の1杯。初めての方にもおすすめです。
+                                </p>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; 2025 Italian Restaurant ChibaTech. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="index.html">HOME</a>
+                <a href="menu.html">MENU</a>
+                <a href="access.html">ACCESS</a>
+            </div>
+            <p class="footer-note">※このサイトは課題レポートです．</p>
+        </div>
+    </footer>
