@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACCESS | イタリアンレストラン ChibaTech</title>
+    <!-- Bootstrap CSS（フレームワーク要件） -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- 元のCSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">
+                <img src="sozai/logo.svg" alt="Italian restaurant ChibaTech ロゴ" class="logo-svg">
+            </a>
+            
+            <nav class="global-nav" aria-label="グローバルナビゲーション">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="access.html" class="current">ACCESS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-title">Access & Contact</h1>
+                <p class="page-lead">
+                    JR津田沼駅から徒歩圏内。<br>
+                    落ち着いた路地に面した、少しだけ特別な夜の入り口です。
+                </p>
+            </div>
+        </section>
+
+        <section class="section-spacer">
+            <div class="container">
+                <div class="access-grid">
+                    <section class="grid-item fade-in">
+                        <h2 class="section-title">Access</h2>
+
+                        <div class="map-container">
+                            
+                            <img src="sozai/外観.jpg" alt="外観" 
+                                 style="width: 100%; border-radius: 8px; border: 2px dashed var(--color-accent); margin-bottom: 20px;">
+                        </div>
+                        <div class="shop-info">
+                            <dl>
+                                <dt>住所</dt>
+                                <dd>〒XXX-XXXX 千葉県習志野市津田沼 X-X-X ChibaTech1F<br></dd>
+
+                                <dt>アクセス</dt>
+                                <dd>
+                                    ・JR総武線 津田沼駅 北口より徒歩8分<br>
+                                    ・京成線 京成津田沼駅より徒歩10分<br>
+                                    ・千葉工業大学 津田沼キャンパスより徒歩5分
+                                </dd>
+                                
+                                <dt>営業時間</dt>
+                                <dd>
+                                    ランチ：11:00〜14:30 (L.O. 14:00)<br>
+                                    ディナー：17:30〜22:00 (L.O. 21:30)
+                                </dd>
+                                
+                                <dt>定休日</dt>
+                                <dd>月曜日</dd>
+                                
+                                <dt>座席数</dt>
+                                <dd>カウンター 10席 / テーブル 20席</dd>
+                                
+                                <dt>駐車場</dt>
+                                <dd>近隣の有料駐車場をご利用ください</dd>
+                            </dl>
+                        </div>
+                    </section>
+
+                    <section class="grid-item fade-in">
+                        <h2 class="section-title">Contact</h2>
+                        <p style="margin-bottom: 20px;">
+                            ご予約・貸切・イベント利用などのご相談は、以下のフォームよりお気軽にお問い合わせください。<br>
+                        </p>
+
+                        <form class="contact-form" onsubmit="return false;">
+                            <div class="form-field">
+                                <label for="name">お名前</label>
+                                <input type="text" id="name" name="name" placeholder="例）工大 太郎">
+                            </div>
+
+                            <div class="form-field">
+                                <label for="email">メールアドレス</label>
+                                <input type="text" id="email" name="email" placeholder="例）example@example.com">
+                            </div>
+
+                            <div class="form-field">
+                                <label for="phone">電話番号</label>
+                                <input type="text" id="phone" name="phone" placeholder="例）090-1234-5678">
+                            </div>
+
+                            <div class="form-field">
+                                <label for="subject">お問い合わせ種別</label>
+                                <select id="subject" name="subject">
+                                    <option value="">選択してください</option>
+                                    <option value="reservation">ご予約</option>
+                                    <option value="party">貸切・パーティー</option>
+                                    <option value="inquiry">一般のお問い合わせ</option>
+                                    <option value="other">その他</option>
+                                </select>
+                            </div>
+
+                            <div class="form-field">
+                                <label for="message">お問い合わせ内容</label>
+                                <textarea id="message" name="message" rows="6" placeholder="ご予約希望日時や人数、ご相談内容などをご記入ください。"></textarea>
+                            </div>
+
+                            <button type="button" class="btn secondary-btn">送信する</button>
+                        </form>
+
+                        <div class="contact-direct">
+                            <h3>お電話でのお問い合わせ</h3>
+                            <p class="phone-number">📞 XXX-XXX-XXXX</p>
+                            <p style="font-size: 0.9rem; color: #c4b5a5;">
+                                受付時間：11:00〜22:00（月曜定休）
+                            </p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© 2025 Italianrestaurant ChibaTech. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="index.html">HOME</a>
+                <a href="menu.html">MENU</a>
+                <a href="access.html">ACCESS</a>
+            </div>
+            <p class="footer-note">※このサイトは課題レポートです．</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS（フレームワーク要件） -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
