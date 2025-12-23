@@ -33,7 +33,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* 全体の幅（Bootstrapの.containerと競合しないよう調整） */
+/* 全体の幅 */
 .container {
     max-width: 1200px;
     margin: 0px auto;
@@ -556,11 +556,7 @@ aside {
     filter: contrast(1.2) brightness(0.95);
 }
 
-/* ============================================
-   Bootstrap競合対策（追加）
-   ============================================ */
-
-/* Bootstrapのcontainerを上書きしないよう、サイト固有のcontainerを調整 */
+/* Bootstrapを上書きしないようにサイト固有のcontainerを調整 */
 .site-header .container,
 .hero .container,
 .section-spacer .container,
@@ -569,7 +565,7 @@ aside {
     max-width: 1200px;
 }
 
-/* Bootstrapのcardスタイルとの競合を避ける */
+/* cardスタイルの競合対策 */
 .grid-side .card {
     border: 1px solid rgba(212, 175, 55, 0.3);
 }
@@ -578,10 +574,8 @@ aside {
     padding: 15px;
 }
 
-/* ============================================
-   動画・音声用スタイル（追加）
-   ============================================ */
 
+/* 動画・音声用スタイル */
 .video-container {
     margin: 20px 0;
 }
@@ -594,4 +588,5 @@ aside {
 /* 音声プレイヤー */
 audio {
     border-radius: 30px;
+
 }
